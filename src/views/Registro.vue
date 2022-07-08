@@ -217,7 +217,7 @@ export default {
       //and set the value to the sector
       let sector = this.sectores[this.LCIIU]
 
-      await axios.post('http://localhost:8000/model', null,
+      await axios.post('http://35.202.169.29/model', null,
           {
             headers: {
               "Access-Control-Allow-Origin": "*"
