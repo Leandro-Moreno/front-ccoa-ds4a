@@ -19,7 +19,7 @@
 <script>
 import {Vue3Lottie} from 'vue3-lottie'
 import 'vue3-lottie/dist/style.css'
-import CCOA from './anim.json'
+import CCOA from '../anim.json'
 
 export default {
   name: 'Hero',
