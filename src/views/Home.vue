@@ -1,6 +1,6 @@
 <script setup>
 import ButtonRepo from '@/components/ButtonRepo.vue'
-import Hero from '@/components/Hero.vue'
+import Hero from './components/Hero.vue'
 </script>
 
 <template>
