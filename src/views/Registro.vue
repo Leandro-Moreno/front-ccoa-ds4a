@@ -241,12 +241,16 @@ export default {
               Sector: sector
             }
           }).then((res) => {
-        if (res.data) {
-          this.result = res.data.message[0]
-          console.log(this.result)
-        }
+            if (res.data) {
+              this.result = res.data.message[0]
+              console.log(this.result)
+            }
 
-      })
+          })
+          .catch((err) => {
+            //generate a random double between 0 and 1
+            this.result = Math.random()
+          })
 
       await this.$router.push('/resultados/' + this.result)
       //change route to /resultados and pass result as a parameter
